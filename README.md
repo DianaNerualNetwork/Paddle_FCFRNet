@@ -15,7 +15,7 @@ For color images, KITTI Raw dataset is also needed, which is available at the [K
 Please follow the official instructions (cf., devkit/readme.txt in each dataset) for preparation.
 
 
-In this project,we provide a second stage framework to do depth completion. Thus,you need do sparse to Dense in a common network,and use it in this project. You can download  in [this]()
+In this project,we provide a second stage framework to do depth completion. Thus,you need do sparse to coarse  in a common network,and use it in this project. You can download  in [this]()
 
 
 ```
