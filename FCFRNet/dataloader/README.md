@@ -1,6 +1,6 @@
 ## FCFRNet/dataloader/kitti_loader.py
 
-for example,when you are training,you need set input type as rgbd.That is you need kitti raw groundtruth,raw rgb image,and dense depth input.Need to Attention is that dense depth images  are the result of frist stage(sparse to coarse step).We use STD to get them.You can change it as any other framework.
+for example,when you are training,you need set input type as rgbd.That is say  you need kitti raw groundtruth,raw rgb image,and dense depth input.Need to Attention is that dense depth images  are the result of frist stage(sparse to coarse step).We use STD to get them.You can change it as any other framework.so you need to change the following glob_d(dense depth input) glob_gt(groundtruth) get_rgb_path(rgb image path)
 
 ```bash
 def get_paths_and_transform(split, args):
